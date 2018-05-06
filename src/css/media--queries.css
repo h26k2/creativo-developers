@@ -1,0 +1,317 @@
+
+@media only screen and (max-width:1199px){
+
+	/*=========================================
+		U X  B A N N E R (after about section)
+	===========================================*/
+
+    .banner--container h2{
+        font-size:3.3em;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+	
+	/*==============================
+		N A V I G A T I O N  B A R 
+	================================*/
+
+	.logo--area{
+    	left:2.5em;
+	}
+
+	.link--area{
+		display: none;
+	}
+
+	.mob--nav--content{
+		display: block;
+	}
+}
+
+
+@media only screen and (min-width:1100px){
+    
+    /*==============================
+		N A V I G A T I O N  B A R 
+	================================*/
+	
+    .logo--area{
+        left:5em;
+    }
+
+    .link--area{
+        right:5em;
+    }
+    .mob--nav , .mob--nav--content{
+    	display: none!important;
+    }
+    
+}
+
+@media only screen and (max-width:991px){
+
+	/*=================
+		H E A D E R 
+	===================*/
+	
+
+	header button{
+		left:4em;
+	}
+
+	/*=============
+		A B O U T  
+	==============*/
+
+	.hero--text--container{
+		text-align: left;
+	}
+
+	.hero--text--container h3{
+		margin-bottom:1em;
+	}
+
+	.hero--text--container h3::before{
+		left:0;
+		width:30%;
+		bottom:-0.5em;
+	}
+
+	.cover--container{
+		margin-top:2em;
+		height:300px;
+	}
+
+	/*=========================================
+		U X  B A N N E R (after about section)
+	===========================================*/
+
+	.banner--container h4{
+        font-size: 1.8em;
+    }
+    .banner--container h2{
+        font-size:2.5em;
+    }
+    .banner--container{
+        background-position: center left; 
+    }
+
+    /*===================
+		F E A T U R E S
+	=====================*/
+
+    #features{
+    	background: #6958ca;
+    	padding:2em 0em 2em 0em;
+    }
+
+    /*===============
+		W O R K S 
+	=================*/
+
+    #works .hero--text--container{
+    	text-align: center;
+    }
+
+    #works .hero--text--container h3{
+    	display: inline-block;
+    }
+    #works .hero--text--container h3::before{
+    	width:50%;
+    }
+    #works ul li{
+    	display: inline-block;
+    	margin:1em;
+	}
+	
+	/* ==================
+		C O N T A C T 
+	===================== */
+
+	#contact form input, 
+	#contact form select, 
+	#contact form textarea{
+		margin-top: 0.5em;
+    	margin-bottom: 0.5em;
+	}
+
+	/* ==============
+		F O O T E R 
+	================= */
+	
+	footer{
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	
+	/* =============
+		G L O B A L 
+	================ */
+
+	h3{
+		font-size:2.5em;
+	}
+
+	header #objects--overlay{
+		display: none;
+	}
+	header button{
+		padding:1em 2em 1em 2em;
+	}
+
+	#about , #services{
+		padding-top:3em;
+		padding-bottom:3em;
+	}
+
+	/*=========================================
+		U X  B A N N E R (after about section)
+	===========================================*/
+
+	.banner--container{
+        background-position: center;
+        padding:7.5em 1em 7.5em 1em;
+    }
+
+	/*=====================
+		S E R V I C E S 
+	=======================*/
+
+    #services .cover--pic{
+    	background-position: center right;
+    }
+
+	/*===================
+		F E A T U R E S
+	=====================*/
+
+    #features{
+    	padding-left:1em;
+    	padding-right: 1em;
+    }
+	
+	/*=====================
+		P R O D U C T S 
+	=======================*/
+
+    #products .row:nth-child(2){
+	    padding:1.5em;    	
+    }
+
+    .product--row--inner{
+    	 padding:1.5em 3em 1.5em 3em;
+
+    }
+    .product--row--inner img{
+    	position: relative;
+    	float:none;
+    	display: block;
+    	left:50%;
+    	transform:translateX(-50%);
+    	margin:1em;
+    }
+	
+	/*=====================
+		C O N T A C T
+	=======================*/
+
+    #contact{
+    	padding:3em 0em 3em 0em;
+	}
+	
+	/*===========	
+		T E A M 
+	==============*/
+
+	#team p{
+		width:100%!important;
+		padding-left:0.5em;
+		padding-right: 0.5em;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+	
+	/* ===============
+		H E A D E R 
+	================== */
+
+	header h1{ 
+		font-size: 4em;
+		padding:1em!important;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+	
+	/*==============================
+		N A V I G A T I O N  B A R 
+	================================*/
+
+	nav .mob--nav--content button{
+		display: none;
+	}
+	
+	nav .mob--nav--content{
+		right:1.2em;
+	}
+
+	nav .logo--area{
+		left:1.2em;
+	}
+
+	/*===============
+		H E A D E R 
+	=================*/
+
+	header h1{
+		font-size: 3em;
+		line-height: 1.3em;
+		padding: 0.5em!important;
+	}
+
+	header button{
+		left:1em;
+		top:0;
+	}
+
+}
+
+@media only screen and (max-width: 823px) and (orientation:landscape){
+	
+	/*===============
+		H E A D E R 
+	=================*/
+
+	header .hero--text{
+		top:0;
+		transform:translateY(0);
+		padding-top:5em;
+	}
+
+	header h1{
+		font-size:2.5em;
+		text-align: center
+	}
+
+	header #objects--overlay{
+		display: none;
+	}
+
+	header button{
+		top:-1em;
+		padding:0.8em 2em 0.8em 2em;
+		left:50%;
+		transform: translateX(-50%);
+	}
+
+}
