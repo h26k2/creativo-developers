@@ -871,7 +871,7 @@ header button:hover , .banner--container button:hover{
 #team{
     position: relative;
     width:100%;
-    background: url("../images/team--bg.jpg") center / cover no-repeat;
+    background: url("../images/team--bg.png") center / cover no-repeat;
     padding:5em 0em 5em 0em;
 }
 
